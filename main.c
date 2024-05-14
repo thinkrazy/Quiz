@@ -41,6 +41,7 @@ int main()
             break;
         }
         buffer[strcspn(buffer, "\n")] = '\0';
+        strlwr(buffer);
 
         correct += checkAnswer(quiz, buffer, question);
 
