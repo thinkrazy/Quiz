@@ -10,6 +10,8 @@ void introduce();
 int main()
 {
     const char *quiz[][3] = {
+        // Question format:
+        // Question, Possible answers, Answer in lower case.
         {"1. ", "A. , B. , C. , D. ", "a"},
         {"2. ", "A. , B. , C. , D. ", "a"},
         {"3. ", "A. , B. , C. , D. ", "a"},
