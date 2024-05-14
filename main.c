@@ -13,9 +13,9 @@ int main()
         // Question format:
         // Question, Possible answers, Answer in lower case.
         {"1. ", "A. , B. , C. , D. ", "a"},
-        {"2. ", "A. , B. , C. , D. ", "a"},
-        {"3. ", "A. , B. , C. , D. ", "a"},
-        {"4. ", "A. , B. , C. , D. ", "a"},
+        {"2. ", "A. , B. , C. , D. ", "b"},
+        {"3. ", "A. , B. , C. , D. ", "c"},
+        {"4. ", "A. , B. , C. , D. ", "d"},
     };
     int question = 0;
     int correct = 0;
